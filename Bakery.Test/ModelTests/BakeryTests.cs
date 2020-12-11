@@ -32,9 +32,9 @@ namespace Bakery.Tests
       [TestMethod]
       public void CoffeeCost_GetsCoffeeTotal_Int()
       {
-        Coffee newOrder = new Coffee(11);
+        Coffee newOrder = new Coffee(12);
         int result = newOrder.Ordertotal();
-        Assert.AreEqual(22, result);
+        Assert.AreEqual(24, result);
       }
     }
 
