@@ -15,19 +15,19 @@ public class Customer
     if (answer == "bread")
     {
       Console.WriteLine("How many loaves would you like?");
-      string amount = Console.ReadLine();
+      int amount = int.Parse(Console.ReadLine());
     }
     else if (answer == "pastries")
     {
       Console.WriteLine("How many pastries would you like?");
-      string amount = Console.ReadLine();
+      int amount = int.Parse(Console.ReadLine());
     }
     else if (answer == "both") ;
     {
       Console.WriteLine("How many loaves would you like?");
-      string breads = Console.ReadLine();
+      int breads = int.Parse(Console.ReadLine());
       Console.WriteLine("How many pastries would you like?");
-      string pastries = Console.ReadLine();
+      int pastries = int.Parse(Console.ReadLine());
     }
 
   }
