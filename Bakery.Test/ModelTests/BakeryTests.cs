@@ -4,6 +4,10 @@ using Bakery.Models;
 namespace Bakery.Tests
 {
   [TestClass]
+  public class BreadTests
+  {
+    [TestMethod]
+    public void OrderCost_
+  }
 
-  public class
 }
