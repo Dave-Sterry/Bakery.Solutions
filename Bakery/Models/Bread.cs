@@ -6,11 +6,11 @@ namespace Bakery.Models
   public class Bread
   {
     public int BreadOrder { get; set; }
-    public int BreadPrice { get; set; }
+    //public int BreadPrice { get; set; }
     public Bread(int order)
     {
       BreadOrder = order;
-      BreadPrice = order * 5;
+      //BreadPrice = order * 5;
 
     }
     public int OrderTotal()
@@ -22,7 +22,7 @@ namespace Bakery.Models
       }
       else
       {
-        return BreadPrice;
+        return BreadOrder * 5;
       }
     }
   }
