@@ -20,6 +20,6 @@ public class Customer
     Pastry sweetOrder = new Pastry(sweets);
 
     Console.WriteLine($"Ok that's {loaves} loaves of bread, and {sweets} pastries");
-    Console.WriteLine($"Your order total is ${loafOrder.OrderTotal() + sweetOrder.OrderTotal()}");
+    Console.WriteLine($"Your order total is ${loafOrder.OrderTotal() + sweetOrder.OrderTotal()} I hope to see you again soon!");
   }
 }

@@ -24,18 +24,18 @@ _A console app for a bakery. This console app present the user with the ability 
 ## If you chose to download via zip
 1. Unzip the downloaded folder
 2. Open the root folder in your code editor 
-3. Once you have the program open in your code editor, run >dotnet restore Bakery.Test.csproj in the terminal to set the project up.
+3. Once you have the program open in your code editor, run dotnet restore Bakery.Test.csproj in the terminal to set the project up.
 4. After the project is sucessfully set up, navigate to the Bakery folder in the terminal.
-5. Then us the commmand dotnet run to start the console app. 
+5. Then use the commmand dotnet run to start the console app. 
 6. Follow the prompts and buy something from Pierre's Bakery!
 
 ## If you cloned via Git
 1. In the terminal navigate to the folder the project is located in
 2. Open the root folder in your code editor using the code . command 
-3. Once you have the program open in your code editor, run "dotnet restore Bakery.Test.csproj" in the terminal to set the project up.
-4. After the project is sucessfully set up run the command "dotnet run Bakery". 
-5. Follow the prompts and buy something from Pierre's Bakery!
- 
+3. Once you have the program open in your code editor, run dotnet restore Bakery.Test.csproj in the terminal to set the project up.
+4. After the project is sucessfully set up, navigate to the Bakery folder in the terminal.
+5. Then use the commmand dotnet run to start the console app. 
+6. Follow the prompts and buy something from Pierre's Bakery!
 
 ## Known Bugs
 There are no known bugs at this time

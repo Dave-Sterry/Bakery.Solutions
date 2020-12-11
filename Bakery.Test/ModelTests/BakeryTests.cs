@@ -26,6 +26,18 @@ namespace Bakery.Tests
       }
     }
 
+    [TestClass]
+    public class CoffeeTests
+    {
+      [TestMethod]
+      public void CoffeeCost_GetsCoffeeTotal_Int()
+      {
+        Coffee newOrder = new Coffee(11);
+        int result = newOrder.Ordertotal();
+        Assert.AreEqual(22, result);
+      }
+    }
+
   }
 
 }
