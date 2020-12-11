@@ -5,7 +5,16 @@ namespace Bakery.Models
 {
   public class Pastry
   {
-    ///pastry price code goes here
+
+    public Pastry(int order)
+    {
+
+    }
+
+    public int OrderTotal()
+    {
+      return 0;
+    }
   }
 }
 
