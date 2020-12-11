@@ -1,7 +1,7 @@
 # Pierre's Bakery
 <img src="https://github.com/Dave-Sterry.png" width="200px" height="auto">
 
-### A website by David Sterry updated on 12/11/2020
+### A C# Console App by David Sterry updated on 12/11/2020
 
 ## Pierre's Bakery
 
