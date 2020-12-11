@@ -1,9 +1,9 @@
-# TITLE 
+# Pierre's Bakery
 <img src="https://github.com/Dave-Sterry.png" width="200px" height="auto">
 
-### A website by David Sterry Max Brockbank Diego Salazar updated on -----
+### A website by David Sterry updated on 12/11/2020
 
-## NAME
+## Pierre's Bakery
 
 _Insert Descrption_
 
@@ -37,4 +37,4 @@ _Please contact me at sterry.david@gmail.com in regards to this website_
 
 This project is licensed under **MIT 2.0**
 
-Copyright (c) 2020 **David Sterry, Max Brockbank, Diego Salazar**
+Copyright (c) 2020 **David Sterry**

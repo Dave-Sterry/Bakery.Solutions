@@ -3,16 +3,17 @@ using System.Collections.Generic;
 
 namespace Bakery.Models
 {
-
   public class Bread
   {
-      //bread price code goes here
+
+    public Bread(int order)
+    {
+
+    }
+    public int OrderTotal()
+    {
+      return 0;
+    }
   }
-  
-  public class Pastry
-  {
-    ///pastry price code goes here
-  }
- 
 }
 

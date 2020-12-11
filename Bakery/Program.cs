@@ -1,5 +1,5 @@
 using System;
-using Bakery.Model;
+using Bakery;
 
 
 public class Customer
