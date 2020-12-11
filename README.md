@@ -5,7 +5,7 @@
 
 ## Pierre's Bakery
 
-_A console app for a bakery. This console app present the user with the ability to purchase bread and/or pastries. It correctly calculates the price based on the given rates, and returns the total to the user_
+_A console app for a bakery. This console app present the user with the ability to purchase bread and/or pastries along with coffee. It correctly calculates the price based on the given rates, and returns the total to the user_
 
 
 ## Requirements
