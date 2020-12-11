@@ -8,14 +8,16 @@
 _Insert Descrption_
 
 The site can be viewed [here](insert gh pages link)
-
-## Setup Instructions (NEEDS TO BE CHANGED FOR C# SET UP)
+## Requirements( add C# set up requirments etc. )
+1. 
+## How to view this project 
 1. User will need to have an up to date browser installed such as Chrome of Firefox
 2. Using the browser navigate to the [gh-pages](gh pages link) for this project
 2. Alternatively use the browser navigate to my GitHub page [respository](portfolio link for this site
 3. Click the Green **Code** button and select **Download Zip**
 4. Unzip the downloaded folder
 5. Open the _index.html_ file to view the site locally
+ 
 
 ## Known Bugs
 There are no known bugs at this time
