@@ -20,6 +20,10 @@ namespace Bakery.Models
         int totalPrice = (BreadOrder - (BreadOrder / 3)) * 5;
         return totalPrice;
       }
+      else if (BreadOrder >= 25)
+      {
+        return BreadOrder * 1;
+      }
       else
       {
         return BreadOrder * 5;
