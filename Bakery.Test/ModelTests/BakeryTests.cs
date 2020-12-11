@@ -9,9 +9,9 @@ namespace Bakery.Tests
     [TestMethod]
     public void OrderCost_GetsOrderDealTotal_Int()
     {
-      Bread newOrder = new Bread(5);
+      Bread newOrder = new Bread(9);
       int result = newOrder.OrderTotal();
-      Assert.AreEqual(17, result);
+      Assert.AreEqual(30, result);
     }
 
   }
