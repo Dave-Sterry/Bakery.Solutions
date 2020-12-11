@@ -15,11 +15,15 @@ public class Customer
     int loaves = int.Parse(Console.ReadLine());
     Console.WriteLine($"{loaves} loaves eh? How many delicious pastries can I add to your order today?");
     int sweets = int.Parse(Console.ReadLine());
+    Console.WriteLine("I forgot to mention we have coffee! Its $3 a cup, unless you buy more than 10 and thens its $2 a cup");
+    Console.WriteLine("How many cups of coffee would you like to add to your order?");
+    int coffees = int.Parse(Console.ReadLine());
 
     Bread loafOrder = new Bread(loaves);
     Pastry sweetOrder = new Pastry(sweets);
+    Coffee javaOrder = new Coffee(coffees);
 
-    Console.WriteLine($"Ok that's {loaves} loaves of bread, and {sweets} pastries");
-    Console.WriteLine($"Your order total is ${loafOrder.OrderTotal() + sweetOrder.OrderTotal()} I hope to see you again soon!");
+    Console.WriteLine($"Ok that's {loaves} loaves of bread, {sweets} pastries and {coffees} cups of coffee");
+    Console.WriteLine($"Your order total is ${loafOrder.OrderTotal() + sweetOrder.OrderTotal() + javaOrder.Ordertotal()} I hope to see you again soon!");
   }
 }
