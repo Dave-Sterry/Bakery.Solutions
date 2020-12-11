@@ -4,7 +4,6 @@ using Bakery.Models;
 
 public class Customer
 {
-
   static void Main()
   {
     Console.WriteLine("Welcome to Pierre's Bakery!");
