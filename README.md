@@ -9,7 +9,7 @@ _A console app for a bakery. This console app present the user with the ability 
 
 
 ## Requirements
- You will need to have an up to date browser installed such as Chrome or Firefox. You will need a code editor of your choice (like vscode) to view and launch the projec and .NET Core v2.2 much be installed. If you don't have .NET Core it can be downloaded [here](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-2.2.106-macos-x64-installer) 
+ You will need to have an up to date browser installed such as Chrome or Firefox. You will need a code editor of your choice (like vscode) to view and launch the projec and .NET Core v2.2 much be installed. If you don't have .NET Core it can be downloaded [here](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-2.2.106-macos-x64-installer). Follow the prompts to download and install .NET Core before attempting to launch this project. 
 
 # How to get this project 
 ## Download from Github:
@@ -43,11 +43,11 @@ There are no known bugs at this time
 
 ## Contact and Support details
 
-_Please contact me at sterry.david@gmail.com in regards to this website_
+_Please contact me at sterry.david@gmail.com in regards to this project_
 
 ## Techknowlogies Used
 
-* C# v 7.3
+* C# v 7.30
 * .NET Core v 2.2
 * dotnet script
 * REPL
