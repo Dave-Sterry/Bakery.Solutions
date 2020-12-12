@@ -6,11 +6,10 @@ namespace Bakery.Models
   public class Pastry
   {
     public int PastryOrder { get; set; }
-    //public int PastryPrice { get; set; }
+
     public Pastry(int order)
     {
       PastryOrder = order;
-      //PastryPrice = order * 2;
     }
 
     public int OrderTotal()
