@@ -20,7 +20,7 @@ namespace Bakery.Tests
       int breadOrder = 1;
       Bread newOrder = new Bread(breadOrder);
       int result = newOrder.OrderTotal();
-      Assert.AreEqual( 4, result);
+      Assert.AreEqual( 5, result);
     }
 
     [TestClass]
