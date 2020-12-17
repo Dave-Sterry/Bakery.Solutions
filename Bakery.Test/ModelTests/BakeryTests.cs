@@ -9,7 +9,8 @@ namespace Bakery.Tests
     [TestMethod]
     public void OrderCost_GetsOrderDealTotal_Int()
     {
-      Bread newOrder = new Bread(6);
+      int breadOrder = 6;
+      Bread newOrder = new Bread(breadOrder);
       int result = newOrder.OrderTotal();
       Assert.AreEqual(20, result);
     }
@@ -29,10 +30,11 @@ namespace Bakery.Tests
       [TestMethod]
       public void OrderCost_GetsPastryTotal_Int()
       {
-        Pastry newOrder = new Pastry(1);
-        int result = newOrder.OrderTotal();
-        Assert.AreEqual(2, result);
-      }
+        int pastryOrder = 1;
+        Pastry newOrder = new Pastry(pastryOrder);
+        int result  = newOrder.OrderTotal();
+        Assert.AreEqual( 2, result);
+        }
     }
 
     [TestMethod]
@@ -52,7 +54,8 @@ namespace Bakery.Tests
       [TestMethod]
       public void CoffeeCost_GetsCoffeeTotal_Int()
       {
-        Coffee newOrder = new Coffee(12);
+        int coffeeOrder = 12;
+        Coffee newOrder = new Coffee(coffeeOrder);
         int result = newOrder.Ordertotal();
         Assert.AreEqual(24, result);
       }
