@@ -35,6 +35,17 @@ namespace Bakery.Tests
       }
     }
 
+    [TestMethod]
+    public void OrderCost_GetsPastryDealTotal_Int()
+    {
+      int pastryOrder = 3;
+      Pastry newOrder = new Pastry(pastryOrder);
+      int result  = newOrder.OrderTotal();
+      Assert.AreEqual( 3, result);
+    }
+
+    
+
     [TestClass]
     public class CoffeeTests
     {
