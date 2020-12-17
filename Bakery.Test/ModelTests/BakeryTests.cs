@@ -41,7 +41,7 @@ namespace Bakery.Tests
       int pastryOrder = 3;
       Pastry newOrder = new Pastry(pastryOrder);
       int result  = newOrder.OrderTotal();
-      Assert.AreEqual( 3, result);
+      Assert.AreEqual( 5, result);
     }
 
     
