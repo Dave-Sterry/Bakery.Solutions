@@ -37,6 +37,11 @@ _A console app for a bakery. This console app present the user with the ability 
 5. Then use the commmand dotnet run to start the console app. 
 6. Follow the prompts and buy something from Pierre's Bakery!
 
+## How to run tests
+1. Open the project in your coder editor.
+2. Navigate in the terminal to Bakery.Test/ModelTests.
+3. Run the command dotnet test. 
+4. View tests results in the terminal.
 ## Known Bugs
 There are no known bugs at this time
 
